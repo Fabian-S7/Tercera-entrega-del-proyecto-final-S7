@@ -1,0 +1,72 @@
+#hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	height: 90vh;
+	background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url("../media/fondo\ de\ inicio.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	h1 {
+		color: white;
+	}
+	button {
+		font-size: 1.75em;
+	}
+}
+#somos-S7Hard {
+	.container {
+		text-align: center;
+		padding: 200px 12px;
+	}
+}
+#nuestro-catalogo {
+	background-color: rgb(30,30,30);
+	color: white;
+	text-align: center;
+	.container {
+		padding: 150px 12px;
+	}
+	h2 {
+		margin-top: 0;
+		font-size: 3.2em;
+	}
+	p {
+		display: none;
+	}
+	.carta {
+		background-position: center center;
+		background-size: cover;
+		padding: 50px 0px;
+		margin: 30px;
+		border-radius: 15px;
+	}
+}
+.carta {
+	&:first-child {
+		background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url("../media/1.1.jpg");
+	}
+	&:nth-child(2) {
+		background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url("../media/2.1.jpg");
+	}
+	&:nth-child(3) {
+		background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url("../media/3.1.jpg");
+	}
+}
+#contact-us {
+	text-align: center;
+	padding-top: 150px;
+	color: blue;
+}
+#contact-form {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	button {
+		margin-top: 10px;
+	}
+}

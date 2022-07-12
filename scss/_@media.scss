@@ -35,11 +35,11 @@
 			margin-top: 0px;
 		}
 		.img-container {
-			background-image: url("../media/foto\ de\ home.jpg");
+			background-image: url("../media/fondo\ de\ about\ me.jpg");
 			background-size: cover;
 			background-position: center center;
 			height: 500px;
-			width: 400px;
+			width: 800px;
 		}
 	}
 	#nuestro-catalogo {
@@ -68,18 +68,14 @@
 	}
 	.carta {
 		&:first-child {
-			background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url("../media/1.jpg");
+			background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url("../media/Fondo-chico-pc-gamer-baja.jpg");
 		}
 		&:nth-child(2) {
-			background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url("../media/2.jpg");
+			background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url("../media/Fondo-chico-pc-gamer-media.jpg");
 		}
 		&:nth-child(3) {
-			background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url("../media/3.jpg");
+			background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url("../media/Fondo-chico-pc-gamer-alta.jpg");
 		}
 	}
-	footer {
-		.container {
-			justify-content: center;
-		}
-	}
+	
 }
